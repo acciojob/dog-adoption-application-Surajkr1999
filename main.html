@@ -3,14 +3,15 @@
 <html>
 
 <head>
-		<link rel="stylesheet" href="styles.css">
+		 <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <title>Dog Adoption Application</title>
    
 </head>
 <body>
 	<!-- the entire body must be written by student -->
-	<h1>Dog Adoption Application Form</h1>
-<form action="/submit_application" method="post">
+
+<form action="submit_application" method="post">
 
 <label for="name">Name</label>
 <input type="text" id="name" name="name" placeholder="Enter you name" required>
@@ -25,7 +26,7 @@
  <input type="checkbox" id="checkbox" name="dog_experience" value="yes">
 <label for="checkbox"> Yes, I have lived with a Dog before</label>
 
-<label for="multislect">Please select your preferred breeds:</label><br>
+<label for="multislect">Please select your preferred breeds</label><br>
 <select id="multislect" name="breeds[]" multiple required>
 <option value="Labrador Retriever">Labrador Retriever</option>
 <option value="German Shepherd">German Shepherd</option>
